@@ -17,7 +17,8 @@ The art of baking is a website that displays and educate people to the art of fr
 
 Name
 	Contributions
-	Future Enhancements
+Future Enhancements
+	
 	Nur Ain Aqilah
 	* Pages: Loading Screen, Home, Main page for conversion, Main page for Measurement
         * Web Elements: icon, animation, image
@@ -26,6 +27,7 @@ Name
 * Add audio
 * Connecting loading to Home page
 * Better interface
+
 	Nur ‘atikah 
 	* Pages : all the recipes (4 pages) for the bread, the menu page for bread and the menu for the desserts
         *  Web elements: icon, image, header, sticky header using javascript, hover elements
@@ -33,6 +35,7 @@ Name
 * A better layout
 * Structured information sentences.
 * Use css elements more to create a more creative website
+
 	Nurul Nabilah
 	* Page:history,4 pages of the desserts,
         * convertion of measurement and 
