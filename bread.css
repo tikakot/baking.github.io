@@ -118,13 +118,13 @@ body{
 }
 
 a:link {
-    color: yellow;
+    color: white;
     text-decoration: none;
     font-family: Helvetica;
 }
 
 a:visited{
-    color: white;
+    color: gray;
     font-family: Helvetica;
 }
 img{
