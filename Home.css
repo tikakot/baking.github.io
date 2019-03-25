@@ -87,7 +87,15 @@
   margin-right: 40px;
   text-align: center;
 }
-.type {
+.bread {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 70px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.desserts {
   color: #fff;
   text-decoration: none;
   margin-left: 70px;
