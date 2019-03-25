@@ -2,20 +2,17 @@
 
 
 Nur ‘Atikah Binti Abdul Hafiz 1721904
- Nur Ain Aqilah Binti Muhammad Rudaini 1723272
- Nurul Nabilah Binti Abd Rahman 1726450
-
+Nur Ain Aqilah Binti Muhammad Rudaini 1723272
+Nurul Nabilah Binti Abd Rahman 1726450
 
 The art of baking is a website that displays and educate people to the art of french baking.
 
 
 1. Group contribution
-           Each of the team members prepared 4 - 5 pages for the progress presentation as shown as table 
+    
+    Each of the team members prepared 4 - 5 pages for the progress presentation as shown as table 
 
-
-       2.      Future enhancement
-
-
+ 2. Future enhancement
 
 
 Name
@@ -23,7 +20,7 @@ Name
 	Future Enhancements
 	Nur Ain Aqilah
 	* Pages: Loading Screen, Home, Main page for conversion, Main page for Measurement
-* Web Elements: icon, animation, image
+        * Web Elements: icon, animation, image
 	* More appropriate fonts
 * Better animations
 * Add audio
@@ -31,18 +28,16 @@ Name
 * Better interface
 	Nur ‘atikah 
 	* Pages : all the recipes (4 pages) for the bread, the menu page for bread and the menu for the desserts
-*  Web elements: icon, image, header, sticky header using javascript, hover elements
-	* A better appealing design
+        *  Web elements: icon, image, header, sticky header using javascript, hover elements
+* A better appealing design
 * A better layout
 * Structured information sentences.
 * Use css elements more to create a more creative website
 	Nurul Nabilah
 	* Page:history,4 pages of the desserts,
-* convertion of measurement and 
-* web elemet : referance link
-
-
-	* A better usage of css
+        * convertion of measurement and 
+        * web elemet : referance link
+* A better usage of css
 * Better font
 
 
@@ -54,18 +49,21 @@ Name
       3.     Use of third party resources
 
 
-Web Elements
-	Team member
-	Modifications
+        Web Elements
+	  Team member
+	    Modifications
+	
 	Images for Home page
-	Nur Ain Aqilah
-	All images are resized using CSS
+	    Nur Ain Aqilah
+	      All images are resized using CSS
+	      
 	Images for all the food recipes
-	Nur ‘Atikah
-	Resized images using CSS
+	    Nur ‘Atikah
+	      Resized images using CSS
+	      
 	Images for all the background picture
-	Nurul nabilah
-	Resized with css
+	    Nurul nabilah
+	       Resized with css
 	
 
 
@@ -138,3 +136,6 @@ https://www.cuisinefiend.com/RecipeImages/Sourdough%20baguettes/sourdough-baguet
 
 
 https://www.allrecipes.com/
+
+library font awesome, retrived from 25 March 2019 from
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
