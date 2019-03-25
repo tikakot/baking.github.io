@@ -1,0 +1,33 @@
+.body{
+  margin: 0;
+  width: 90%;
+
+
+
+
+}
+
+.background{
+  background: url("4554414390_042b8560ff_z.jpg")  no-repeat center;
+  background-size: contain;
+  height: 700px;
+  position: relative;
+}
+
+.Measurement{
+
+  width: 20%;
+  height: 600px;
+  padding-right: 50px;
+  position: absolute;
+  font-family: sans-serif;
+  top: 50px;
+  left: 600px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #D5D2C1;
+  opacity: 0.9;
+
+
+}
