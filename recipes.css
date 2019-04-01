@@ -96,3 +96,10 @@ li a:hover {
 .checked {
   color: orange;
 }
+
+footer {
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #373B44;
+  color: white;
+}
