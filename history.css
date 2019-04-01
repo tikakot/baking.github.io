@@ -1,37 +1,139 @@
-.body{
 
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-
-}
-.background{
-
-width: 100%
-height:auto;
-background-size: contain;
-position: relative;
-
-
+* {
+  box-sizing: border-box;
 }
 
-.History{
+body {
+  margin: 0;
 
-  width: 50%;
-  height: 30%;
-  padding-right: 20px;
-  position: absolute;
-  font-family: sans-serif;
-  bottom: 80px;
-  left: 30px;
+}
+.header {
+
+  background-color: white;
+  text-align: center;
+  padding:30px ;
+  font-size: 50px;
+  color: #333738;
+  z-index: +1;
+  font-family: 'Mixa';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: black;
-  opacity: 0.8;
-
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Arial;
 
 }
+
+li a:hover {
+  background-color: #111;
+}
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .content{
+
+
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-left: 50px;
+
+
+  }
+
+
+
+.middle{
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: white;
+  height: 100vh;
+
+}
+.hello{
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+
+  background-color: white;
+  height: 100vh;
+
+}
+
+.intro {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background: url("2.jpg");
+
+  background-repeat: no-repeat 50% 50%;
+  background-size:cover;
+  height: 90vh;
+}
+
+.content1, .content2 ,.content3 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+h2{
+  color: #333;
+  	font-family: 'Playfair Display';
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-bottom: 60px;
+}
+
+h1 {
+
+
+color: white;
+	font-family: 'Playfair Display';
+font-size: 60px;
+font-weight: 500;
+line-height: 60px;
+margin-bottom: 60px;
+
+}
+
+p {
+  color: #555;
+	font-family: 'Playfair Display';
+font-size: 22px;
+line-height: 36px;
+margin-bottom: 24px;
+}
+
+
 footer {
   padding: 1% 5%;
   text-align:center;
