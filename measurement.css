@@ -1,33 +1,164 @@
-.body{
+
+* {
+  box-sizing: border-box;
+}
+body{
   margin: 0;
-  width: 90%;
-
-
-
 
 }
 
-.background{
-  background: url("4554414390_042b8560ff_z.jpg")  no-repeat center;
-  background-size: contain;
-  height: 700px;
-  position: relative;
+@font-face {
+   font-family: 'Mixa';
+   src: url("DonauUppercase-Neue.otf");
 }
 
-.Measurement{
 
-  width: 20%;
-  height: 600px;
-  padding-right: 50px;
-  position: absolute;
-  font-family: sans-serif;
-  top: 50px;
-  left: 600px;
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #D5D2C1;
-  opacity: 0.9;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Arial;
+
+}
+
+li a:hover {
+  background-color: #111;
+}
 
 
+
+.header {
+
+  background-color: white;
+  text-align: center;
+  padding:30px ;
+  font-size: 50px;
+  color: #333738;
+  z-index: +1;
+  font-family: 'Mixa';
+}
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+
+
+  .content{
+
+
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-left: 50px;
+
+
+  }
+
+  .intro, .middle, .hello {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+   background-color:
+    height: 100vh;
+  }
+  h1 {
+
+
+  color: #333;
+  	font-family: 'Playfair Display';
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-bottom: 60px;
+
+  }
+  h2{
+    color: #333;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  h3 {
+  color: #333;
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  }
+  p {
+    color: #555;
+  	font-family: 'Playfair Display';
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 24px;
+  }
+  .content1, .content2 ,.content3 {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+  color: #404040;
+  margin-left: 100px;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+  height: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+  footer {
+    padding: 1% 5%;
+    text-align:center;
+    background-color: #373B44;
+    color: white;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+  margin-right: 30px;
+  float: right;
 }
