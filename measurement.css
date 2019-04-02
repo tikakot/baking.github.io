@@ -154,6 +154,7 @@ tr:nth-child(even) {
     text-align:center;
     background-color: #373B44;
     color: white;
+    padding-left: 0;
 }
 
 form {
