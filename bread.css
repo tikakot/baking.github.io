@@ -151,3 +151,10 @@ img{
   width: 200px;
   height: 250px;
 }
+
+footer {
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #373B44;
+  color: white;
+}
