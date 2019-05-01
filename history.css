@@ -9,7 +9,7 @@ body{
 /* --------------------------------------------------------------------------------------------------- */
 /* menu */
 .main{
-  height:100vh;
+  height:100%;
   width:100%;
   position:fixed;
   overflow:hidden;
@@ -118,33 +118,35 @@ body{
   }
 
 /* content */
-#box1{
+#top{
   height: 100vh;
   width: 100%;
-  background-image: url(1.jpg);
+  background-image:url(5.jpg);
   background-size: cover;
   background-position: center;
   display: table;
   background-attachment: fixed;
-
 }
 
-/* .Header{
-  margin-left: 35%;
-  margin-top: 40%;
-  margin-right: -50%;
+#top h1{
+  font-size: 200px;
+  font-family: "Montserrat",sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 20px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.7);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin:0;
+  /* background: url(6.jpg); */
+  /* background-size:cover; */
+  /* -webkit-text-fill-color:transparent; */
+  /* -webkit-background-clip:text; */
 }
-h1{
-  font-size: 70px;
-  margin: 0;
-  text-align: center;
-  color: white;
-  font-family: 'Donau', serif;
-  display: table-cell;
-  vertical-align: middle;
-} */
 
-#box2{
+#box1{
   height: 100vh;
   width: 100%;
   background-image: url(5.jpg);
@@ -182,6 +184,15 @@ line-height: 36px;
 margin-bottom: 24px;
 }
 
+#box2{
+  height: 100vh;
+  width: 100%;
+  background-image: url(5.jpg);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
 #box3{
   height: 100vh;
   width: 100%;
@@ -192,15 +203,6 @@ margin-bottom: 24px;
   background-attachment: fixed;
 }
 #box4{
-  height: 100vh;
-  width: 100%;
-  background-image: url(5.jpg);
-  background-size: cover;
-  background-position: center;
-  display: table;
-  background-attachment: fixed;
-}
-#box5{
   height: 100vh;
   width: 100%;
   background-image: url(1.jpg);
