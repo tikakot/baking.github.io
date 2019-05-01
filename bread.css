@@ -48,8 +48,8 @@ li a:hover {
   max-width: 100%;
   height: auto;
   z-index: -1;
-  margin-left:34%;
-    margin-right:10%;
+  margin-left:14%;
+     margin-right:10%;
 }
 .sticky {
   position: fixed;
@@ -76,7 +76,7 @@ li a:hover {
 }
 .column{
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 
   height: auto;
