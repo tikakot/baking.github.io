@@ -29,12 +29,13 @@ Future Enhancements
 * Better interface
 
 	Nur ‘atikah 
-	* Pages : all the recipes (4 pages) for the bread, the menu page for bread and the menu for the desserts
-        *  Web elements: icon, image, header, sticky header using javascript, hover elements
-* A better appealing design
-* A better layout
-* Structured information sentences.
-* Use css elements more to create a more creative website
+	* Pages : all the recipes (8 pages) for the bread,the recipes (4 pages) for the dessets, the menu page for bread and the menu for the desserts
+	*hover effect
+	*web elements: icon, image, link
+	*all the content of the recipes.
+
+
+
 
 	Nurul Nabilah
 	* Page:history,4 pages of the desserts,
