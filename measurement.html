@@ -10,21 +10,7 @@
     <script src="Home.js">  </script>
   </head>
   <body>
-  <div class="main">
-      <a href="index.html"><button id="logo"></button></a>
-      <div class="icon">
-        <div class="line">
-
-        </div>
-      </div>
-      <div class="menu">
-        <a href="index.html" class="m1">Home</a>
-        <a href="recipes.html" class="m2">Recipes</a>
-        <a href="history.html" class="m3">About</a>
-        <a href="measurement.html" class="m4">Conversion</a>
-
-    </div>
-    </div>
+  
   <div class="content">
 
 
@@ -297,6 +283,79 @@
             <br>
             <br>
    </div>
+    <div class="calc">
+      kilogram: <input oninput="calcG()" onchange="calcG()" type="number" id="kilogram">
+      gram: <input oninput="calcK()" onchange="calK()" type="number" id="gram">
+      OZ: <input oninput="calcOZ()" onchange="calcOZ()" type="number" id="OZ">
+  gm: <input oninput="calcGR()" onchange="calcGR()" type="number" id="gm">
+  ounce: <input oninput="calcO()" onchange="calcO()" type="number" id="ounce">
+  mililiter: <input oninput="calcML()" onchange="calcML()" type="number" id="mililiter">
+  Celcius: <input oninput="calcF()" onchange="calcF()" type="number" id="Celcius">
+  Fahrenheit: <input oninput="calcC()" onchange="calcC()" type="number" id="Fahrenheit">
+  pound: <input oninput="calcP()" onchange="calcP()" type="number" id="pound">
+  kilo: <input oninput="calcKG()" onchange="calcKG()" type="number" id="kilo">
+
+    <script>
+      function calcG(){
+        x= document.getElementById("kilogram").value;
+        y= document.getElementById("gram").value;
+        document.getElementById("gram").value = x*1000;
+      }
+
+      function calcK(){
+        x= document.getElementById("kilogram").value;
+        y= document.getElementById("gram").value;
+        document.getElementById("kilogram").value = y/1000;
+      }
+
+      function calcOZ(){
+      c= document.getElementById("OZ").value;
+      d= document.getElementById("gm").value;
+      document.getElementById("gm").value = c*28;
+    }
+
+    function calcGR(){
+      c= document.getElementById("OZ").value;
+      d= document.getElementById("gm").value;
+      document.getElementById("OZ").value = d/28;
+    }
+
+    function calcO(){
+      e= document.getElementById("ounce").value;
+      f= document.getElementById("mililiter").value;
+      document.getElementById("mililiter").value = e*30;
+    }
+
+    function calcML(){
+      e= document.getElementById("ounce").value;
+      f= document.getElementById("mililiter").value;
+      document.getElementById("ounce").value = f/30;
+    }
+
+    function calcF(){
+      g= document.getElementById("Celcius").value;
+      h= document.getElementById("Fahrenheit").value;
+      document.getElementById("Fahrenheit").value = (h-32)*0.55;
+    }
+
+    function calcC(){
+      g= document.getElementById("Celcius").value;
+      h= document.getElementById("Fahrenheit").value;
+      document.getElementById("Celcius").value = (g*0.55)+32;
+    }
+
+    function calcP(){
+      i= document.getElementById("pound").value;
+      j= document.getElementById("kilo").value;
+      document.getElementById("kilo").value = i*45;
+    }
+
+    function calcKG(){
+      i= document.getElementById("pound").value;
+      j= document.getElementById("kilo").value;
+      document.getElementById("pound").value = j/45;
+    }
+    </script>
   </section>
 
 </body>
