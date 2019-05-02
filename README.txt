@@ -12,21 +12,12 @@ The art of baking is a website that displays and educate people to the art of fr
     
     Each of the team members prepared 4 - 5 pages for the progress presentation as shown as table 
 
- 2. Future enhancement
-
-
-Name
-	Contributions
-Future Enhancements
-	
+ 2. Contributions
+ 
 	Nur Ain Aqilah
-	* Pages: Loading Screen, Home, Main page for conversion, Main page for Measurement
-        * Web Elements: icon, animation, image
-	* More appropriate fonts
-* Better animations
-* Add audio
-* Connecting loading to Home page
-* Better interface
+	* Pages: Main Page, measurement,history
+        * Web Elements: icon, link, image
+	* Parallax effect, fix menu
 
 	Nur ‘atikah 
 	* Pages : all the recipes (8 pages) for the bread,the recipes (4 pages) for the dessets, the menu page for bread and the menu for the desserts
@@ -38,11 +29,10 @@ Future Enhancements
 
 
 	Nurul Nabilah
-	* Page:history,4 pages of the desserts,
+	* Page:history,4 pages of the desserts, measurement
         * convertion of measurement and 
-        * web elemet : referance link
-* A better usage of css
-* Better font
+        * web element : reference link
+	* auto converter
 
 
 	
@@ -87,6 +77,9 @@ https://unsplash.com/photos/j1gr2w10EtQ
 
 Clark Young. Unsplash. Retrieved 24 March 2019 from 
 https://unsplash.com/photos/jfbMODLPrQ0
+
+Kjartan Einarsson. Unsplash. Retrieved 26 April 2019 from
+https://unsplash.com/photos/1V-sKpHHju4
 
 
 Hans Danial ,1070x722 pexels,Retrived 1 March 2019 from
