@@ -283,7 +283,7 @@ form {
 .calc{
 
       width: 20%;
-      height: 600px;
+      height: 1500px;
       padding-right: 50px;
       position: absolute;
       font-family: sans-serif;
@@ -293,6 +293,6 @@ form {
       padding-left: 20px;
       padding-right: 20px;
       background-color: #D5D2C1;
-      opacity: 0.9;
+      opacity: 0.5;
 
   }
